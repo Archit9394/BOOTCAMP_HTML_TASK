@@ -1,0 +1,47 @@
+.top_nav
+{background-color:rgb(255, 255, 255);}
+
+body{
+    background-image:url(food_wallpaper.jpg);
+}
+img{
+    max-width: 12%;
+    max-height:12%;
+}
+
+/*.top_nav a{
+    float:center;
+    color:red;
+    text-align:center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.top_nav a:hover{
+    background-color:rgb(160, 160, 160);
+    color:black;
+}*/
+
+/*body{
+    
+    margin:0;
+    padding:0px 0px;
+    background-image: url("stitch_image.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size:20px;
+}*/
+
+#login_box{
+    /* width:100 px;
+    height:100 px; */
+    background-color: white;
+    border-radius:2px;
+    box-shadow: 0 2px 4px;
+    position:relative;
+    left:400px;
+    margin:100px 400px ;
+    padding:10px 10px 10px;
+}
+
