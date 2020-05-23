@@ -1,47 +1,72 @@
-.top_nav
-{background-color:rgb(255, 255, 255);}
-
-body{
-    background-image:url(food_wallpaper.jpg);
+.top_nav{
+    background-color: rgb(209, 209, 209);
 }
-img{
+.top_nav img{
     max-width: 12%;
     max-height:12%;
 }
 
-/*.top_nav a{
-    float:center;
-    color:red;
-    text-align:center;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.top_nav a:hover{
-    background-color:rgb(160, 160, 160);
-    color:black;
-}*/
-
-/*body{
-    
-    margin:0;
-    padding:0px 0px;
-    background-image: url("stitch_image.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    font-size:20px;
-}*/
-
-#login_box{
-    /* width:100 px;
-    height:100 px; */
-    background-color: white;
-    border-radius:2px;
-    box-shadow: 0 2px 4px;
+.box{
+    color:rgb(41, 41, 41);
+    height:600px;
+    width:250px;
     position:relative;
-    left:400px;
-    margin:100px 400px ;
-    padding:10px 10px 10px;
+    top:80px;
+    left:200px;
+    text-align: center;
+    border-color: grey;
 }
 
+input[type="text"],input[type="password"]{
+    margin-bottom:20px;
+    padding:8px;
+    border:none;
+    border-bottom:1px solid rgb(41, 41, 41);
+}
+
+input[type="submit"]{
+    width:120px;
+    height:35px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 168, 65);
+    font-family: "montserrat";
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor:pointer;
+
+}
+
+.facebook_btn{
+    font-family: "montserrat";
+    font-size: 20px;
+    width:120px;
+    height: 35px;
+    background-color:#32508e;
+    border-color: #32508e;
+    cursor:pointer;
+    color: white;
+    border-radius:5px;
+}
+.google_btn{
+    font-family: "montserrat";
+    font-size: 20px;
+    width:120px;
+    height: 35px;
+    background-color:rgb(236, 45, 45);
+    color: white;
+    border-radius:5px;
+    cursor:pointer;
+}
+.google_btn:hover{
+    opacity: 0.8;
+    box-shadow:0px 2px 4px rgb(41, 41, 41);
+}
+.facebook_btn:hover{
+    opacity: 0.8;
+    box-shadow:0px 2px 4px rgb(41, 41, 41);
+}
+
+input[type="submit"]:hover,input[type="submit"]:focus{
+    opacity: 0.8;
+    box-shadow: rgb(41, 41, 41);
+}
