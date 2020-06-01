@@ -25,3 +25,13 @@
 ul{
     padding:0;
 }
+
+.card.py-1:hover {
+    border-color: red;
+  }
+
+  ul {
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
