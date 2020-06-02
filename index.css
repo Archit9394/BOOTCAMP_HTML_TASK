@@ -22,10 +22,6 @@
 	font-size:11px;
 }
 
-ul{
-    padding:0;
-}
-
 .card.py-1:hover {
     border-color: red;
   }
@@ -33,5 +29,6 @@ ul{
   ul {
     display: inline-block;
     *display: inline;
-    zoom: 1
+    zoom: 1;
+    padding:0;
 }
