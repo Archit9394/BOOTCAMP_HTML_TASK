@@ -60,150 +60,186 @@ crossorigin="anonymous">
     </nav>
  
 <div class="container py-5">
-     <h1 class="font-weight-bold">Find Awesome Deals<span class="font-weight-normal"> in America</span></h1>
-     <p class="text-secondary">List of all top bars, restaurants, and cafes in America, based on trends</p>
-     <div class="form-group">
-         <button class="btn float-left dropdown mr-2" style="background-color: white;">
-        <a class="dropdown-toggle text-secondary class-picker " data-toggle="dropdown" data-live-search="true" role="button" href="#">
-            <i class="fas fa-search"></i>  Quick Searches</a>
-              
-       <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Lunch</a></li>
-            <li><a class="dropdown-item" href="#">Supper</a></li>
-            <li><a class="dropdown-item" href="#">Dinner</a></li>
-        </ul>
-        </button>
-          
-         <input class="form-control w-25 float-left" type="text" placeholder="Enter your delivery location" aria-label="Search">
-         <button class="btn ml-2 py-1 px-4 text-white font-weight-bold" style="background-color: red;">Search</button>
-     </div>
-    <p class="mt-5"> List of available cusines</p>
+    <div class="row" style="height: 350px;">
+        <div class="col-8">
+            <h1 class="font-weight-bold">Find Awesome Deals<span class="font-weight-normal"> in America</span></h1>
+            <p class="text-secondary">List of all top bars, restaurants, and cafes in America, based on trends</p>
+            <div class="form-group col-12">
+                <button class="btn float-left dropdown mr-2" style="background-color: white;">
+                <a class="dropdown-toggle text-secondary class-picker " data-toggle="dropdown" data-live-search="true" role="button" href="#">
+                    <i class="fas fa-search"></i>  Quick Searches</a>
+                    
+            <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Lunch</a></li>
+                    <li><a class="dropdown-item" href="#">Supper</a></li>
+                    <li><a class="dropdown-item" href="#">Dinner</a></li>
+                </ul>
+                </button>
+                
+                <input class="form-control w-50 float-left" type="text" placeholder="Enter your delivery location" aria-label="Search">
+                <button class="btn ml-2 py-1 px-5 text-white font-weight-bold" style="background-color: red;">Search</button>
+            </div>
+            <p class="mt-5"> List of available cusines</p>
 
-    <div id="recipe_Carousel" class="carousel slide container align-items-start" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item row active" style="width:50%">
-                <div class="column col-2">
-                    <div class="card py-1" style="width: 130%;">
-                            <div style="text-align:center">
-                                <img class="rounded-circle" src="cuisines/food_1.jpg" style="width:50%; height:50%;">
+            <div id="recipe_Carousel" class="carousel slide container align-items-start" data-ride="carousel">
+<!--                <div class="row">
+                    <div class="col-12"> -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item row active" style="width:100%">
+                        <div class="column col-2">
+                            <div class="card py-1" style="width: 130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_1.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
                             </div>
-                            <section class="py-2" style="text-align:center; color:red">
-                                <font size="-1">Indian</font><br>
-                                <font style="color:grey" size="-1">123</font>
-                            </section>
+                        </div>
+                        <div class="column col-2">
+                            <div class="card py-1" style="width:130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_2.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
+                        <div class="column col-2">
+                            <div class="card py-1" style="width:130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_2.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
+                        <div class="column col-2">
+                            <div class="card py-1" style="width:130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_3.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
+                        <div class="column col-2">
+                            <div class="card py-1" style="width:130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_4.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
+                        <div class="column col-2">
+                            <div class="card py-1" style="width:130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_5.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item row" style="width:100%">
+                        <div class="column col-2">
+                            <div class="card py-1" style="width: 130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_6.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
+                        <div class="column col-2">
+                            <div class="card py-1" style="width:130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_7.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
+                        <div class="column col-2">
+                            <div class="card py-1" style="width:130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_7.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
+                        <div class="column col-2">
+                            <div class="card py-1" style="width:130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_8.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
+                        <div class="column col-2">
+                            <div class="card py-1" style="width:130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_1.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
+                        <div class="column col-2">
+                            <div class="card py-1" style="width:130%;">
+                                    <div style="text-align:center">
+                                        <img class="rounded-circle" src="cuisines/food_2.jpg" style="width:50%; height:50%;">
+                                    </div>
+                                    <section class="py-2" style="text-align:center; color:red">
+                                        <font size="-1">Indian</font><br>
+                                        <font style="color:grey" size="-1">123</font>
+                                    </section>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="column col-2">
-                    <div class="card py-1" style="width:130%;">
-                            <div style="text-align:center">
-                                <img class="rounded-circle" src="cuisines/food_2.jpg" style="width:50%; height:50%;">
-                            </div>
-                            <section class="py-2" style="text-align:center; color:red">
-                                <font size="-1">Indian</font><br>
-                                <font style="color:grey" size="-1">123</font>
-                            </section>
-                    </div>
-                </div>
-                <div class="column col-2">
-                    <div class="card py-1" style="width:130%;">
-                            <div style="text-align:center">
-                                <img class="rounded-circle" src="cuisines/food_3.jpg" style="width:50%; height:50%;">
-                            </div>
-                            <section class="py-2" style="text-align:center; color:red">
-                                <font size="-1">Indian</font><br>
-                                <font style="color:grey" size="-1">123</font>
-                            </section>
-                    </div>
-                </div>
-                <div class="column col-2">
-                    <div class="card py-1" style="width:130%;">
-                            <div style="text-align:center">
-                                <img class="rounded-circle" src="cuisines/food_4.jpg" style="width:50%; height:50%;">
-                            </div>
-                            <section class="py-2" style="text-align:center; color:red">
-                                <font size="-1">Indian</font><br>
-                                <font style="color:grey" size="-1">123</font>
-                            </section>
-                    </div>
-                </div>
-                <div class="column col-2">
-                    <div class="card py-1" style="width:130%;">
-                            <div style="text-align:center">
-                                <img class="rounded-circle" src="cuisines/food_5.jpg" style="width:50%; height:50%;">
-                            </div>
-                            <section class="py-2" style="text-align:center; color:red">
-                                <font size="-1">Indian</font><br>
-                                <font style="color:grey" size="-1">123</font>
-                            </section>
-                    </div>
-                </div>
+                <a class="carousel-control-prev w-auto" href="#recipe_Carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next w-auto" href="#recipe_Carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+<!--            </div>
+            </div> -->
             </div>
-            <div class="carousel-item row" style="width:50%">
-                <div class="column col-2">
-                    <div class="card py-1" style="width: 130%;">
-                            <div style="text-align:center">
-                                <img class="rounded-circle" src="cuisines/food_6.jpg" style="width:50%; height:50%;">
-                            </div>
-                            <section class="py-2" style="text-align:center; color:red">
-                                <font size="-1">Indian</font><br>
-                                <font style="color:grey" size="-1">123</font>
-                            </section>
-                    </div>
-                </div>
-                <div class="column col-2">
-                    <div class="card py-1" style="width:130%;">
-                            <div style="text-align:center">
-                                <img class="rounded-circle" src="cuisines/food_7.jpg" style="width:50%; height:50%;">
-                            </div>
-                            <section class="py-2" style="text-align:center; color:red">
-                                <font size="-1">Indian</font><br>
-                                <font style="color:grey" size="-1">123</font>
-                            </section>
-                    </div>
-                </div>
-                <div class="column col-2">
-                    <div class="card py-1" style="width:130%;">
-                            <div style="text-align:center">
-                                <img class="rounded-circle" src="cuisines/food_8.jpg" style="width:50%; height:50%;">
-                            </div>
-                            <section class="py-2" style="text-align:center; color:red">
-                                <font size="-1">Indian</font><br>
-                                <font style="color:grey" size="-1">123</font>
-                            </section>
-                    </div>
-                </div>
-                <div class="column col-2">
-                    <div class="card py-1" style="width:130%;">
-                            <div style="text-align:center">
-                                <img class="rounded-circle" src="cuisines/food_1.jpg" style="width:50%; height:50%;">
-                            </div>
-                            <section class="py-2" style="text-align:center; color:red">
-                                <font size="-1">Indian</font><br>
-                                <font style="color:grey" size="-1">123</font>
-                            </section>
-                    </div>
-                </div>
-                <div class="column col-2">
-                    <div class="card py-1" style="width:130%;">
-                            <div style="text-align:center">
-                                <img class="rounded-circle" src="cuisines/food_2.jpg" style="width:50%; height:50%;">
-                            </div>
-                            <section class="py-2" style="text-align:center; color:red">
-                                <font size="-1">Indian</font><br>
-                                <font style="color:grey" size="-1">123</font>
-                            </section>
-                    </div>
-                </div>
-            </div>
+
+
+
         </div>
-        <a class="carousel-control-prev w-auto" href="#recipe_Carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next w-auto" href="#recipe_Carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div class="col-4">
+            <img src="food_offer/food_gif.gif" style="Height:70%">
+        </div>
     </div>
 </div>
 
@@ -228,7 +264,11 @@ crossorigin="anonymous">
                     <div class="carousel-item active row">
                         <div class="column col">
                             <div class="card">
-                                <img class="img-fluid card-img-top" src="food_slider/food_slider_1.jpg">
+                                <div style="background-image:url(food_slider/food_slider_5.jpg);height: 142px;">
+                                <div class="badge badge-dark ml-1 mt-2">Promoted</div><br>
+                                <div class="badge badge-success mx-1 py-1 float-right" style="margin-top: 90px;">
+                                    <i class="fa fa-star"></i> 3.1(300+)</div>
+                                 </div>
                                 <div class="card-body">
                                     <div class="card-title"><h5>Pizzeria</h5></div>
                                     <ul class="list-horizontal">
@@ -244,7 +284,11 @@ crossorigin="anonymous">
                         </div>
                         <div class="column col">
                             <div class="card">
-                                <img class="img-fluid card-img-top" src="food_slider/food_slider_2.jpg">
+                                <div style="background-image:url(food_slider/food_slider_2.jpg);height: 142px;">
+                                    <div class="badge badge-dark ml-1 mt-2">Promoted</div><br>
+                                    <div class="badge badge-success mx-1 py-1 float-right" style="margin-top: 90px;">
+                                        <i class="fa fa-star"></i> 3.1(300+)</div>
+                                </div>
                                 <div class="card-body">
                                     <div class="card-title"><h5>Pizzeria</h5></div>
                                     <ul class="list-horizontal">
@@ -260,7 +304,13 @@ crossorigin="anonymous">
                         </div>
                         <div class="column col">
                             <div class="card">
-                                <img class="img-fluid card-img-top" src="food_slider/food_slider_3.jpg">
+                                <div class="card">
+                                    <div style="background-image:url(food_slider/food_slider_3.jpg);height: 142px;">
+                                        <div class="badge badge-dark ml-1 mt-2">Promoted</div><br>
+                                        <div class="badge badge-success mx-1 py-1 float-right" style="margin-top: 90px;">
+                                            <i class="fa fa-star"></i> 3.1(300+)</div>
+                                    </div>
+                                </div>
                                 <div class="card-body">
                                     <div class="card-title"><h5>Pizzeria</h5></div>
                                     <ul class="list-horizontal">
@@ -276,7 +326,13 @@ crossorigin="anonymous">
                         </div>
                         <div class="column col">
                             <div class="card">
-                                <img class="img-fluid card-img-top" src="food_slider/food_slider_4.jpg">
+                                <div class="card">
+                                    <div style="background-image:url(food_slider/food_slider_4.jpg);height: 142px;">
+                                        <div class="badge badge-dark ml-1 mt-2">Promoted</div><br>
+                                        <div class="badge badge-success mx-1 py-1 float-right" style="margin-top: 90px;">
+                                            <i class="fa fa-star"></i> 3.1(300+)</div>
+                                    </div>
+                                </div>
                                 <div class="card-body">
                                     <div class="card-title"><h5>Pizzeria</h5></div>
                                     <ul class="list-horizontal">
@@ -294,7 +350,13 @@ crossorigin="anonymous">
                     <div class="carousel-item row">
                         <div class="column col">
                             <div class="card">
-                                <img class="img-fluid card-img-top" src="food_slider/food_slider_5.jpg">
+                                <div class="card">
+                                    <div style="background-image:url(food_slider/food_slider_1.jpg);height: 142px;">
+                                        <div class="badge badge-dark ml-1 mt-2">Promoted</div><br>
+                                        <div class="badge badge-success mx-1 py-1 float-right" style="margin-top: 90px;">
+                                            <i class="fa fa-star"></i> 3.1(300+)</div>
+                                    </div>
+                                </div>
                                 <div class="card-body">
                                     <div class="card-title"><h5>Pizzeria</h5></div>
                                     <ul class="list-horizontal">
@@ -310,7 +372,13 @@ crossorigin="anonymous">
                         </div>
                         <div class="column col">
                             <div class="card">
-                                <img class="img-fluid card-img-top" src="food_slider/food_slider_6.jpg">
+                                <div class="card">
+                                    <div style="background-image:url(food_slider/food_slider_6.jpg);height: 142px;">
+                                        <div class="badge badge-dark ml-1 mt-2">Promoted</div><br>
+                                        <div class="badge badge-success mx-1 py-1 float-right" style="margin-top: 90px;">
+                                            <i class="fa fa-star"></i> 3.1(300+)</div>
+                                    </div>
+                                </div>
                                 <div class="card-body">
                                     <div class="card-title"><h5>Pizzeria</h5></div>
                                     <ul class="list-horizontal">
@@ -326,7 +394,13 @@ crossorigin="anonymous">
                         </div>
                         <div class="column col">
                             <div class="card">
-                                <img class="img-fluid card-img-top" src="food_slider/food_slider_7.jpg">
+                                <div class="card">
+                                    <div style="background-image:url(food_slider/food_slider_7.jpg);height: 142px;">
+                                        <div class="badge badge-dark ml-1 mt-2">Promoted</div><br>
+                                        <div class="badge badge-success mx-1 py-1 float-right" style="margin-top: 90px;">
+                                            <i class="fa fa-star"></i> 3.1(300+)</div>
+                                    </div>
+                                </div>
                                 <div class="card-body">
                                     <div class="card-title"><h5>Pizzeria</h5></div>
                                     <ul class="list-horizontal">
@@ -342,7 +416,13 @@ crossorigin="anonymous">
                         </div>
                         <div class="column col">
                             <div class="card">
-                                <img class="img-fluid card-img-top" src="food_slider/food_slider_8.jpg">
+                                <div class="card">
+                                    <div style="background-image:url(food_slider/food_slider_8.jpg);height: 142px;">
+                                        <div class="badge badge-dark ml-1 mt-2">Promoted</div><br>
+                                        <div class="badge badge-success mx-1 py-1 float-right" style="margin-top: 90px;">
+                                            <i class="fa fa-star"></i> 3.1(300+)</div>
+                                    </div>
+                                </div>
                                 <div class="card-body">
                                     <div class="card-title"><h5>Pizzeria</h5></div>
                                     <ul class="list-horizontal">
